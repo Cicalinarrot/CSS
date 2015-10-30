@@ -1,0 +1,346 @@
+<html>
+
+<head>
+
+
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+	<style>
+
+		body{margin: 0}
+
+		#header{
+			height: 100px;
+		}
+
+		#headertext{
+			font-size: 60px;
+			text-align: center;
+			margin-top: 20px;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 700;
+		}
+
+		#sinistra{
+			float: left;
+			width: 48%;
+		}
+
+
+
+
+		.mostratore:hover + #contenutosx{
+			display: block;
+
+		}
+
+
+		#contenutosx{
+			float: left;
+			width: 55%;
+			display: none;
+			margin-left: 30;
+		}
+
+		.mostratore2:hover + #contenutosx2{
+			display: block;
+
+		}
+
+
+		#contenutosx2{
+			float: left;
+			width: 55%;
+			margin-left: 30;
+			display: none;
+		}
+
+		.mostratore3:hover + #contenutosx3{
+			display: block;
+
+		}
+
+
+		#contenutosx3{
+			float: left;
+			width: 55%;
+			margin-left: 30;
+			display: none;
+		}
+
+		.mostratore4:hover + #contenutosx4{
+			display: block;
+
+		}
+
+
+		#contenutosx4{
+			float: left;
+			width: 55%;
+			margin-left: 30;
+			display: none;
+		}
+
+		.testosx{
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 400;
+			font-size: 16;
+			text-align: center;
+
+		}
+		
+
+		.boxsx{
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 400;
+			font-size: 25;
+			text-align: right;
+			margin: 10px 10px 40px 0px;
+			float: right;
+			width: 140px;
+		}
+
+		.boxsx:hover{
+			color: #707070;
+		}
+
+
+
+
+		#destra{
+			float: right;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 400;
+			width: 48%;
+
+		}
+
+
+		.mostratoredx1:hover + #contenutodx1{
+			display: block;
+
+		}
+
+
+		#contenutodx1{
+			float: right;
+			width: 55%;
+			margin-right: 30;
+			display: none;
+		}
+
+		.mostratoredx2:hover + #contenutodx2{
+			display: block;
+
+		}
+
+
+		#contenutodx2{
+			float: right;
+			width: 55%;
+			margin-right: 30;
+			display: none;
+		}
+
+		.mostratoredx3:hover + #contenutodx3{
+			display: block;
+
+		}
+
+
+		#contenutodx3{
+			float: right;
+			width: 55%;
+			margin-right: 30;
+			display: none;
+		}
+
+		.testodx{
+			font-size: 15px;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 400;
+			text-align: center;
+		}
+
+		.vuoto{
+			float: left;
+			height: 35px;
+			width: 90%;
+		}
+
+		.boxdx{
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 400;
+			font-size: 25;
+			text-align: left;
+			margin: 10px 0 40px 10px;
+			float: left;
+			width: 140px;
+
+		}
+
+
+		.boxdx:hover{
+			color: #707070;
+		}
+
+		#centro{
+			float: left;
+			width: 4%
+		}
+
+		#striscia{
+			width: 0px;
+			border-color: black;
+			border-radius: 6px;
+			border-width: 8px;
+			border-style: solid;
+			height: 600px;
+			margin: 0 auto;
+
+		}
+
+		#footer{
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 400;
+			font-size: 10;
+			text-align: right;
+			float: right;
+			margin: 50px 20px 20px 0;
+			width: 90%;
+
+		}
+
+		.clear{clear: right;}
+		.clear2{clear: left;}
+
+	</style>
+
+</head>
+
+
+
+
+<body>
+	<div id="header">
+		<div id="headertext">
+		GP
+		</div>
+	</div>
+
+	<div id="sinistra">
+
+
+
+			<div class=mostratore>
+			<div class="boxsx">
+			Lorem
+			</div>
+			</div>
+
+			<div id="contenutosx">
+				<div class=testosx>
+				Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div>
+			</div><div class=clear></div>
+			
+			
+			<div class=mostratore2>
+			<div class="boxsx">
+			ipsum
+			</div>
+			</div>
+
+
+			<div id="contenutosx2">
+				<div class=testosx>
+				ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div>
+			</div><div class=clear></div>
+			
+			
+
+
+			<div class="mostratore3">
+			<div class="boxsx">
+			dolor
+			</div>
+			</div>
+
+			<div id="contenutosx3">
+				<div class=testosx>
+				 dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div>
+			</div><div class=clear></div>
+
+			<div class="mostratore4">
+			<div class="boxsx">
+			sit
+			</div>
+			</div>
+
+			<div id="contenutosx4">
+				<div class=testosx>
+				 sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div>
+			</div><div class=clear></div>
+
+	</div>
+
+	<div id="centro">
+		<div id="striscia" style="background-color:black">
+		</div>
+	</div>
+
+	<div id="destra">
+		<div class="vuoto" style="background-color=white">
+		</div> <br>
+
+
+			<div class=mostratoredx1>
+			<div class="boxdx">
+			amet
+			</div>
+			</div>
+
+			<div id="contenutodx1">
+				<div class=testosx>
+				amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div>
+			</div><div class=clear2></div>
+		
+
+
+			<div class=mostratoredx2>
+			<div class="boxdx">
+			consectetur
+			</div>
+			</div>
+
+			<div id="contenutodx2">
+				<div class=testosx>
+				consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div>
+			</div><div class=clear2></div>
+
+			<div class=mostratoredx3>
+			<div class="boxdx">
+			adipisci
+			</div>
+			</div>
+
+			<div id="contenutodx3">
+				<div class=testosx>
+				 adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div>
+			</div><div class=clear2></div>
+
+	</div>
+
+	<div id="footer">
+	Gianmarco Palma 2015
+	</div>
+</body>
+
+
+</html>
