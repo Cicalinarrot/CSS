@@ -1,0 +1,539 @@
+<html>
+
+<head>
+
+<!-- Second attempt with the same method: got a random idea and tried to do it with CSS only.
+Struggled to get those "cables" with boxes borders, then got into a new project before
+refining some graphic stuff that could have made it less eye-burning. Sry 
+-->
+
+
+<!-- #00b0b0 bello! -->
+
+<style>
+	body{
+		margin: 0;
+		background-color: #e0e0e0;
+	}
+
+
+	#testata{
+		height: 100px;
+		background-color: #b0b0b0;
+		border-style: solid;
+		border-width: 0 0 6px 0;
+		border-color: #505050;
+
+	}
+
+	#primo{display:none;}
+	#secondo{display:none;}
+	#terzo{display:none;}
+	#quarto{display:none;}
+
+	#info{border-width: 0;
+		float: left;
+		border-style: solid;
+		height: 500px;
+		background-color: #e0e0e0;
+		margin-top:-396px;
+		max-width: 70%;display: block}
+	#spaziovuoto{display:none;}
+	#spaziovuoto2{display:none;}
+	#spaziovuoto3{display:none;}
+	#spaziovuoto4{display:none;}
+
+	#pulsante1:hover ~ #primo {
+		display: block;
+
+
+	}
+
+	#pulsante1:hover ~ #spaziovuoto {
+	display: block;
+
+
+	}
+
+	#pulsante1:hover ~ #vuoto {
+		display: none;
+
+
+	}
+
+	#pulsante1:hover ~ #info {
+		display: none;
+
+
+	}
+
+	#pulsante2:hover ~ #secondo {
+		display: block;
+
+
+	}
+
+
+	#pulsante2:hover ~ #spaziovuoto2 {
+	display: block;
+
+
+	}
+
+	#pulsante2:hover ~ #vuoto {
+		display: none;
+
+
+	}
+
+	#pulsante2:hover ~ #info {
+	display: none;
+
+
+	}
+
+	#pulsante3:hover ~ #terzo {
+		display: block;
+
+
+	}
+
+	#pulsante3:hover ~ #spaziovuoto3 {
+	display: block;
+
+
+	}
+
+	#pulsante3:hover ~ #vuoto {
+		display: none;
+
+
+	}
+
+	#pulsante3:hover ~ #info {
+		display: none;
+
+
+	}
+
+	#pulsante4:hover ~ #quarto {
+		display: block;
+
+
+	}
+
+	#pulsante4:hover ~ #spaziovuoto4 {
+	display: block;
+
+
+	}
+
+	#pulsante4:hover ~ #vuoto {
+		display: none;
+
+
+	}
+
+	#pulsante4:hover ~ #info {
+		display: none;
+
+
+	}
+
+	.tubovuoto{
+		border-width: 0;
+		float: left;
+		border-style: solid;
+		height: 500px;
+		width: 100px;
+		background-color: #e0e0e0;
+		margin-top:-396px;
+	}
+
+
+	#link1{
+		display: block;
+		border-style: solid;
+		border-color: #505050;
+		border-width: 0 0 6px 0;
+		width: 100px;
+		margin-top: 58px;
+		
+	}
+
+	#link21{
+		display: solid;
+		border-style: solid;
+		border-color: #505050;
+		border-width: 6px 0 0 6px;
+		border-top-left-radius: 6px;
+		height: 100px;
+		width: 47px;
+		margin-top: 58px;
+		margin-left: 47px;
+
+
+
+	}
+
+	.angolotl{
+		border-style: solid;
+		background-color: #505050;
+		border-width: 0;
+		width: 6px;
+		height: 6px;
+	}
+
+	.angolotltl{
+		border-style: solid;
+		background-color: #e0e0e0;
+		border-color: #e0e0e0;
+		border-width: 3px;
+		width: 3px;
+		height: 3px;
+		margin-left: 0px;
+		margin-top: 0px;
+		border-radius: 3px;
+
+	}
+
+
+
+	#link22{
+		display: solid;
+		border-style: solid;
+		border-color: #505050;
+		border-width: 0 6px 6px 0px;
+		border-bottom-right-radius: 6px;
+		height: 25px;
+		width: 47px;
+
+	}
+
+	.angolodr{
+		border-style: solid;
+		background-color: #505050;
+		border-width: 0;
+		width: 6px;
+		height: 6px;
+		float: right;
+		margin-top: 19px;
+	}
+
+	.angolodrdr{
+		border-style: solid;
+		background-color: #e0e0e0;
+		border-color: #e0e0e0;
+		border-width: 3px;
+		width: 3px;
+		height: 3px;
+		margin-left: -3px;
+		margin-top: -3px;
+		border-radius: 3px;
+
+	}
+
+	#link23{
+		display: solid;
+		border-style: solid;
+		border-color: #505050;
+		border-width: 0 6px 6px 0px;
+		border-bottom-right-radius: 6px;
+		height: 155px;
+		width: 47px;
+
+	}
+
+	#link24{
+		display: solid;
+		border-style: solid;
+		border-color: #505050;
+		border-width: 0 6px 6px 0px;
+		border-bottom-right-radius: 6px;
+		height: 288px;
+		width: 47px;
+
+	}
+
+
+	#spaziovuoto{
+		border-width: 0;
+		float: left;
+		border-style: solid;
+		height: 500px;
+		background-color: ##e0e0e0;
+		margin-top:-396px;
+		max-width: 70%;
+	}
+
+
+	#casellona{
+		float: left;
+		background-color: #b0b0b0;
+		border-style: solid;
+		border-color: #505050;
+		border-width: 6px;
+		border-radius: 6px;
+		margin-top: 30px;
+		max-width: 750px;
+	}
+
+	#spaziovuoto2{
+		border-width: 0;
+		float: left;
+		border-style: solid;
+		height: 500px;
+		background-color: #e0e0e0;
+		margin-top:-396px;
+		max-width: 70%;
+	}
+
+
+	#casellona2{
+		float: left;
+		background-color: #b0b0b0;
+		border-style: solid;
+		border-color: #505050;
+		border-width: 6px;
+		border-radius: 6px;
+		margin-top: 30px;
+		max-width: 750px;
+	}
+
+	#spaziovuoto3{
+		border-width: 0;
+		float: left;
+		border-style: solid;
+		height: 500px;
+		background-color: #e0e0e0;
+		margin-top:-396px;
+		max-width: 70%;
+	}
+
+
+	#casellona3{
+		float: left;
+		background-color: #b0b0b0;
+		border-style: solid;
+		border-color: #505050;
+		border-width: 6px;
+		border-radius: 6px;
+		margin-top: 30px;
+		max-width: 750px;
+	}
+
+
+	#spaziovuoto4{
+		border-width: 0;
+		float: left;
+		border-style: solid;
+		height: 500px;
+		background-color: #e0e0e0;
+		margin-top:-396px;
+		max-width: 70%;
+	}
+
+
+	#casellona4{
+		float: left;
+		background-color: #b0b0b0;
+		border-style: solid;
+		border-color: #505050;
+		border-width: 6px;
+		border-radius: 6px;
+		margin-top: 30px;
+		max-width: 750px;
+	}
+
+
+	.icona{
+		float: left;
+		background-color: #b0b0b0;
+		border-style: solid;
+		border-color: #505050;
+		border-width: 6px;
+		border-radius: 6px;
+		width: 50px;
+		height: 50px;
+		margin: 30px 0 40px 30px;
+		clear: both;
+
+	}
+
+
+</style>
+
+</head>
+
+<body>
+
+
+	<header>
+
+		<div id="testata">
+
+		</div>
+
+	</header>
+
+
+	<div id="resto">
+			<div id="pulsante1" class="icona">
+			</div>
+
+			<div id="pulsante2" class="icona">
+			</div>
+
+			<div id="pulsante3" class="icona">
+
+			</div>
+
+			<div id="pulsante4" class="icona">
+
+			</div>
+
+
+		<div id="vuoto" class="tubovuoto">
+		</div>
+
+		<div id="primo" class="tubovuoto">
+			<div id="link1"></div>
+		</div>
+
+
+
+		<div id="secondo" class="tubovuoto">
+			<div id="link21">
+				<div class="angolotl">
+					<div class="angolotltl">
+
+					</div>
+				</div>
+			</div>
+			<div id="link22"><div class="angolodr">
+					<div class="angolodrdr">
+
+					</div>
+				</div></div>
+		</div>
+
+		<div id="terzo" class="tubovuoto">
+			<div id="link21"><div class="angolotl">
+					<div class="angolotltl">
+
+					</div>
+				</div></div>
+			<div id="link23"><div class="angolodr" style="margin-top:149">
+					<div class="angolodrdr">
+
+					</div>
+				</div></div>
+		</div>
+
+		<div id="quarto" class="tubovuoto">
+			<div id="link21"><div class="angolotl">
+					<div class="angolotltl">
+
+					</div>
+				</div></div>
+			<div id="link24"><div class="angolodr" style="margin-top:282">
+					<div class="angolodrdr">
+
+					</div>
+				</div></div>
+		</div>
+
+
+
+
+	<!--
+		<div class="tubovuoto">
+			<div id="link1"></div>
+			<div id="link21">
+				<div class="angolotl">
+					<div class="angolotltl">
+
+					</div>
+				</div>
+			</div>
+			<div id="link22">
+				<div class="angolodr">
+					<div class="angolodrdr">
+
+					</div>
+				</div>
+
+			</div>
+			<div id="link23">
+				<div class="angolodr" style="margin-top:149">
+					<div class="angolodrdr">
+
+					</div>
+				</div>
+
+			</div>
+
+			<div id="link24">
+				<div class="angolodr" style="margin-top:282">
+					<div class="angolodrdr">
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	-->
+
+
+		<div id="info">
+			<div id="casellona">
+
+Blablablabla
+
+			</div>
+		</div>
+
+		<div id="spaziovuoto">
+			<div id="casellona">
+
+Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+			</div>
+		</div>
+
+		<div id="spaziovuoto2">
+			<div id="casellona2">
+
+ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+			</div>
+		</div>
+
+		<div id="spaziovuoto3">
+			<div id="casellona3">
+
+dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+			</div>
+		</div>
+
+
+		<div id="spaziovuoto4">
+			<div id="casellona4">
+
+sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+			</div>
+		</div>
+
+
+
+	</div>
+
+
+	<footer>
+	</footer>
+
+	</body>
+
+</html>
